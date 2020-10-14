@@ -16,6 +16,13 @@
     ],
     "rules": {
       "linebreak-style": ["error", "windows"],
-      "quotes": ["error", "double"]
+      "quotes": ["error", "double"],
+      "comma-dangle": ["error", {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "only-multiline",
+        "exports": "only-multiline",
+        "functions": "only-multiline"
+      }]
     }
 }
