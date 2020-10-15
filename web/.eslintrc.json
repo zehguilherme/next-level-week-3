@@ -25,6 +25,10 @@
     ],
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-      "linebreak-style": ["error", "windows"]
+      "linebreak-style": ["error", "windows"],
+      "quotes": ["error", "double"],
+      "object-curly-newline": ["error", {
+        "ImportDeclaration": { "multiline": true, "minProperties": 5 }
+      }]
     }
 }
