@@ -62,24 +62,15 @@ export default function OrphanageDetails() {
     <ScrollView style={styles.container}>
       <View style={styles.imagesContainer}>
         <ScrollView horizontal pagingEnabled>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://fmnova.com.br/images/noticias/safe_image.jpg",
-            }}
-          />
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://fmnova.com.br/images/noticias/safe_image.jpg",
-            }}
-          />
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://fmnova.com.br/images/noticias/safe_image.jpg",
-            }}
-          />
+          {orphanage.images.map((image) => (
+            <Image
+              key={image.id}
+              style={styles.image}
+              source={{
+                uri: image.url,
+              }}
+            />
+          ))}
         </ScrollView>
       </View>
 
