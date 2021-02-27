@@ -117,8 +117,8 @@ Starting the application with Expo.
 
 1. Fork this repository;
 2. Create a branch with your feature: `git checkout -b my-feature`;
-3. Commit your changes: `git commit -m 'feat: Minha nova feature'`;
-4. Push to your branch: `git push origin minha-feature`;
+3. Commit your changes: `git commit -m 'feat: My new feature'`;
+4. Push to your branch: `git push origin my-feature`;
 5. Create a pull request;
 6. After the merge of your pull request is done, you can delete your branch.
 
